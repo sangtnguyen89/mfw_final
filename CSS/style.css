@@ -1,0 +1,89 @@
+/* general css for all elements */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin Condensed', sans-serif;
+}
+
+/* css for title text ft. gfont */
+.title_text{
+    font-family: 'Playball', cursive;
+}
+
+/* set body and html height to 100%*/
+body, html{
+    height: 100%;
+}
+
+/* css to give body a background image */
+body{
+    background-color: #383636;
+}
+
+/* background-color for specific sections */
+.sponsor_container, .accordion-button, .accordion-body, .contact_container, .form_header{
+    background-color: #37a6e7;
+}
+
+/* add some margin to main */
+main{
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+/* css for carousel images to make them uniform in height*/
+#carousel_container .carousel-item img{
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    height: 70vh;
+}
+
+/* css for carousel ft. pseudo-element */
+#carousel_container .carousel-item:before{
+    content: "";
+    background-image:
+    linear-gradient(
+      to bottom,
+      transparent, rgba(0,0,0,0.5)
+    );
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 70vh;
+}
+
+/* css for icon borders */
+.rounded-circle{
+    width: 50px;
+    height: 50px;
+}
+
+/* change outline color of accordion */
+.accordion-item{
+    background-color: #000000;
+}
+
+/* change height for accordion images */
+/* .accordion img{
+    height: 80vh;
+} */
+
+/* css for jumbotron */
+.jumbotron{
+    height: 55vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* add background image to jumbo */
+#contact_jumbo{
+    background-image: url('/IMG/ship.jpg');
+}
+
+/* css for subtle shadow text */
+.contact_header{
+    text-shadow: 2px 2px #88A684;
+}

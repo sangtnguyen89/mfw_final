@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<!-- link stylesheet -->
+	<link href="./CSS/style.css" rel="stylesheet">
+	<!-- google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cabin+Condensed&family=Playball&display=swap" rel="stylesheet">
+	<!-- font awesome -->
+	<script src="https://kit.fontawesome.com/6f231be1f6.js" crossorigin="anonymous"></script>
+	<!-- title -->
+	<title>International Festivals</title>
+</head>
+
+<body>
+
+	<header>
+		<!-- navbar -->
+		<div class="navbar_container overflow-auto">
+			<nav class="navbar navbar-expand-xl navbar-dark bg-secondary bg-opacity-25">
+				<div class="container-fluid">
+					<!-- left text of nav bar -->
+					<a class="navbar-brand text-white fs-2 fw-bold title_text">International Festivals</a>
+					<!-- toggler on right side -->
+					<button class="navbar-toggler rounded-circle btn-md bg-secondary bg-opacity-50" type="button"
+						data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+						aria-expanded="false" aria-label="Toggle navigation">
+						<!-- switched default span icon w/ bars (hamburger) from fa -->
+						<i class="fas fa-bars fa-md text-white"></i>
+					</button>
+					<!-- navigation items container (shows when toggled) -->
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<!-- nav items -->
+						<ul class="navbar-nav ms-auto mb-lg-0">
+							<li class="nav-item">
+								<a class="nav-link title_text text-white fs-4 fw-bold mt-1" href="./index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link title_text text-white fs-4 fw-bold mt-1" href="./festivals.html">Festivals</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link title_text text-white fs-4 fw-bold mt-1" href="./contact.html">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<!-- carousel -->
+		<article>
+			<div id="carousel_container" class="carousel slide carousel-fade overflow-auto" data-bs-ride="carousel">
+				<div class="carousel-inner">
+					<!-- AgitÁgueda -->
+					<div class="carousel-item active" id="c_one">
+						<img src="./IMG/one.jpg" class="d-block w-100" alt="...">
+						<div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
+							<h5 class="title_text fs-1">AgitÁgueda</h5>
+							<p class="fs-5">Agueda, Portugal</p>
+							<p class="fs-5">Águeda’s streets get a bright uplift in the month July, as colorful umbrella canopies line the streets of this town.</p>
+						</div>
+					</div>
+					<!-- mardigras -->
+					<div class="carousel-item" id="c_two">
+						<img src="./IMG/two.jpg" class="d-block w-100" alt="...">
+						<div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
+							<h5 class="title_text fs-1">Mardi Gras</h5>
+							<p class="fs-5">New Orleans, USA</p>
+							<p class="fs-5">Mingle among the crowds thronging the streets, follow the parades, dance the hours away to live music and marching bands then put your best foot forward at a masquerade ball.</p>
+						</div>
+					</div>
+					<!-- Holi -->
+					<div class="carousel-item" id="c_three">
+						<img src="./IMG/three.jpg" class="d-block w-100" alt="...">
+						<div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
+							<h5 class="title_text fs-1">Holi</h5>
+							<p class="fs-5">India</p>
+							<p class="fs-5">Holi is a popular ancient Hindu festival, also known as the Festival of Spring, the Festival of Colours or the Festival of Love.</p>
+						</div>
+					</div>
+					<!-- lanterns -->
+					<div class="carousel-item" id="c_four">
+						<img src="./IMG/four.jpg" class="d-block w-100" alt="...">
+						<div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
+							<h5 class="title_text fs-1">Loy Krathong</h5>
+							<p class="fs-5">Thailand</p>
+							<p class="fs-5">A Thai festival celebrated annually throughout the Kingdom of Thailand. It can be translated as "to float ritual vessel or lamp".</p>
+						</div>
+					</div>
+					<!-- bulls -->
+					<div class="carousel-item" id="c_five">
+						<img src="./IMG/five.jpg" class="d-block w-100" alt="...">
+						<div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
+							<h5 class="title_text fs-1">Running of the Bulls</h5>
+							<p class="fs-5">Pamplona, Spain</p>
+							<p class="fs-5">The Running of the Bulls is not for the faint-hearted as several bullfights do take place during the fiesta. The bull run isn’t something to be taken lightly either and if you’re planning on participating, make sure you take a good pair of running shoes with you.
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- prev/next buttons -->
+				<button class="carousel-control-prev" type="button" data-bs-target="#carousel_container" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carousel_container" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</article>
+
+		<!-- sponsors -->
+		<article>
+			<!-- sponsor parent container -->
+			<div class="sponsor_container container-fluid overflow-auto">
+				<!-- sponsor child container for flex setup -->
+				<div class="d-flex flex-column justify-content-center align-items-center">
+					<h2 class="display-5 fw-bold title_text text-uppercase text-white mt-5 mb-3 text-center"><u
+							class="title_text">More Info & Sponsors</u>
+					</h2>
+					<figure class="figure d-flex flex-column align-items-center">
+						<!-- International Festivals & Events Association -->
+						<a href="https://www.ifea.com/" target="_blank" rel="noopener noreferrer">
+							<img src="./IMG/IFEA.jpg" alt="International Festivals & Events Association logo" class="img-fluid">
+						</a>
+						<figcaption class="figure-caption text-center mb-3 text-white fs-5">International Festivals & Events Association
+						</figcaption>
+						<!-- International Festivals & Events Foundation -->
+						<a href="https://www.ifea.com/p/foundation" target="_blank" rel="noopener noreferrer">
+							<img src="./IMG/IFEAF.png" alt="International Festivals & Events Association Foundation logo" class="img-fluid">
+						</a>
+						<figcaption class="figure-caption text-center text-white mb-3 fs-5">International Festivals & Events Foundation
+						</figcaption>
+						<!-- Muffie & Mylo -->
+						<a href="https://sangtnguyen89.github.io/final-project/" target="_blank" rel="noopener noreferrer">
+							<img src="./IMG/mm_logo_4.png" alt="Muffie & Mylo's logo" class="img-fluid">
+						</a>
+						<figcaption class="figure-caption text-center text-white fs-5">Muffie & Mylo's</figcaption>
+					</figure>
+				</div>
+			</div>
+		</article>
+	</main>
+
+	<footer>
+		<div class="container-fluid bg-secondary bg-opacity-25 overflow-auto">
+			<div class="d-flex flex-column justify-content-center align-items-center p-4">
+				<!-- socials, direct to social landing page -->
+				<div class="socials d-flex flex-row gap-4 p-3">
+					<a class="btn rounded-circle bg-black bg-opacity-75 d-flex justify-content-center align-items-center"
+						href="https://twitter.com/?lang=en" target="_blank" rel="noopener noreferrer"><i
+							class="fab fa-twitter fa-lg text-white"></i></a>
+					<a class="btn rounded-circle bg-black bg-opacity-75 d-flex justify-content-center align-items-center"
+						href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><i
+							class="fab fa-facebook-f fa-lg text-white"></i></a>
+					<a class="btn rounded-circle bg-black bg-opacity-75 d-flex justify-content-center align-items-center"
+						href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><i
+							class="fab fa-instagram fa-lg text-white"></i></a>
+					<a class="btn rounded-circle bg-black bg-opacity-75 d-flex justify-content-center align-items-center"
+						href="https://discord.com/" target="_blank" rel="noopener noreferrer"><i
+							class="fab fa-brands fa-discord fa-lg text-white"></i></a>
+				</div>
+				<!-- clickable reference links and functionality to figma and unsplash. -->
+				<p class="bg-black bg-opacity-75">
+					<span class="text-white">Design</span>
+					<a class="text-white" href="https://www.figma.com/" target="_blank" rel="noopener noreferrer">Figma</a>
+					<span class="text-white">. Images:</span>
+					<a class="text-white" href="https://unsplash.com/" target="_blank" rel="noopener noreferrer">Unsplash</a>
+					<span class="text-white">.</span>
+				</p>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Javascript: Bootstrap Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+		crossorigin="anonymous"></script>
+
+</body>
+
+</html>
