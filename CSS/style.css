@@ -12,24 +12,32 @@
 }
 
 /* set body and html height to 100%*/
-body, html{
-    height: 100%;
-}
+html{
+    height: 100vh;
+    }
 
 /* css to give body a background image */
 body{
-    background-color: #383636;
+    height: 100vh;
+    width: 100vw;
+    /* background-color: #383636; */
+    background-image: url('/IMG/contact_bkgd.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 /* background-color for specific sections */
 .sponsor_container, .accordion-button, .accordion-body, .contact_container, .form_header{
-    background-color: #37a6e7;
+    background-color: #1e92d4;
 }
 
 /* add some margin to main */
 main{
     margin-left: 10vw;
     margin-right: 10vw;
+    
 }
 
 /* css for carousel images to make them uniform in height*/
@@ -85,5 +93,5 @@ main{
 
 /* css for subtle shadow text */
 .contact_header{
-    text-shadow: 2px 2px #88A684;
+    text-shadow: 2px 2px #64c5b5;
 }
